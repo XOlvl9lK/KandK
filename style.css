@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.invisible {
+    display: none;
+}
